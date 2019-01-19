@@ -1,0 +1,18 @@
+body{
+    width:960px;
+    background-image: url("../images/usmapwcolor.jpg");
+    background-repeat: no-repeat;
+    /* background-size: cover; */
+    color: rgb(185, 18, 18);
+    display: flex;
+}
+
+.container{
+    margin-left: 685px;
+    text-align: center;
+    padding-top: 50px;
+}
+
+#{
+    letter-spacing: 15px;
+}
