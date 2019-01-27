@@ -1,6 +1,8 @@
 # Word-Guess-Game
 Word Guess Game is a simple version of a hangman style game. The purpose of this assignment was to create a word guess game using Javascript.
 
+![Picture of game](https://github.com/welljer/Word-Guess-Game/blob/master/assets/images/game.JPG)
+
 [Link to game](https://welljer.github.io/Word-Guess-Game/)
 
 ## How to Play:
