@@ -16,7 +16,7 @@ If the user guesses the correct State name before remaining guesses equal zero, 
 
 If the user does not guess the correct State within the allocated number of guesses, then the game resets.
 
-## Assets 
+## Technology
 
 * HTML5
 * CSS3
