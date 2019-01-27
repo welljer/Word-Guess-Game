@@ -18,7 +18,7 @@ If the user does not guess the correct State within the allocated number of gues
 
 ## Assets 
 
-HTML5
-CSS
-JavaScript
-a dash of JQUERY
+* HTML5
+* CSS3
+* JavaScript
+* JQUERY
