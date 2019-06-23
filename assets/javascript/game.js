@@ -14,6 +14,8 @@ $(document).ready(function() {
     resetGame()
 
     document.onkeypress = event => {
+            /*this will check if a letter and is within the queued word,
+            will also convert the letter to upper case */
         if (isAlpha(event.key) && !pauseGame) {
             checkForLetter(event.key.toUpperCase())
         }
@@ -29,8 +31,9 @@ $(document).ready(function() {
                 if (guessingWord.join("") === wordToMatch) {
                     wins++
                     pauseGame = true
+                    //resets game in 3 secs if win will update win counter
                     updateDisplay()
-                    setTimeout(resetGame,5000)
+                    setTimeout(resetGame,3000)
                 }
             }
         }
